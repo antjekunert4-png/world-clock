@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" />
-    <title>World Clock - Antje Kunert</title>
+    <<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js">
+        </script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.js"></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <title>World Clock - Antje Kunert</title>
 </head>
 
 <body>
@@ -18,19 +22,19 @@
             <option value="">Auckland</option>
         </select>
 
-        <div class="city">
+        <div class="city" id="los-angeles">
             <h2>Los Angeles 🇺🇸</h2>
             <div>
-                <div class="date">March 31st 2026</div>
+                <div class="date"></div>
             </div>
-            <div class="time">7:46:15 <small>PM</small></div>
+            <div class="time"></div>
         </div>
-        <div class="city">
+        <div class="city" id="paris">
             <h2>Paris 🇫🇷</h2>
             <div>
-                <div class="date">March 31st 2026</div>
+                <div class="date"></div>
             </div>
-            <div class="time">7:46:15 <small>PM</small></div>
+            <div class="time"></div>
         </div>
     </div>
     <footer>This project was coded by <strong>Antje Kunert</strong> and
